@@ -8,8 +8,8 @@ guideForm.addEventListener('submit', (event) => {
   downloadReady.hidden = false;
   downloadReady.focus();
   const link = document.createElement('a');
-  link.href = 'assets/SECONDS-LEFT-Free-Go-Bag-Guide.pdf';
-  link.download = 'SECONDS-LEFT-Free-Go-Bag-Guide.pdf';
+  link.href = 'assets/SECONDS-LEFT-Pack-First.pdf';
+  link.download = 'SECONDS-LEFT-Pack-First.pdf';
   document.body.appendChild(link);
   link.click();
   link.remove();
